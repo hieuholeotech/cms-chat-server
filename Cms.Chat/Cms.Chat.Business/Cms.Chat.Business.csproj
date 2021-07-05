@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Cms.Model\Cms.Model.Context\Cms.Model.Context.csproj" />
+    <ProjectReference Include="..\..\Cms.Model\Cms.Model.Entities\Cms.Model.Entities.csproj" />
+    <ProjectReference Include="..\Cms.Chat.Dtos\Cms.Chat.Dtos.csproj" />
+    <ProjectReference Include="..\Cms.Chat.Infrastructures\Cms.Chat.Infrastructures.csproj" />
+  </ItemGroup>
+
+</Project>

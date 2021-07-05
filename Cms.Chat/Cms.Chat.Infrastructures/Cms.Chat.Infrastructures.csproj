@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Cms.Model\Cms.Model.Entities\Cms.Model.Entities.csproj" />
+    <ProjectReference Include="..\Cms.Chat.Dtos\Cms.Chat.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>
